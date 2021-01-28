@@ -12,6 +12,7 @@
  */
 
 ?>
+</main>
 <footer class="footer">
     <div class="container text-center">
         <?php 
@@ -28,8 +29,6 @@
         ?>
     </div>
 </footer>
-</main>
-
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/assets/js/jquery-3.5.1.slim.min.js'; ?>"></script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/assets/js/popper.min.js'; ?>"></script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/assets/js/bootstrap.bundle.min.js'; ?>"></script>

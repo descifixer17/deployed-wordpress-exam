@@ -29,13 +29,13 @@
 #get-in-touch-section{
 	background-color: #3c5399;
 	color: #fff;
+	margin-bottom: 0;
 }
 
 #get-in-touch-section hr{
 	color: #273971;
 	border-width: medium;
 	width: 15%;
-	margin: 0 5%;
 }
 #get-in-touch-details{
 	font-size: 1.13rem;
@@ -69,6 +69,17 @@ textarea[name=contact-message]:focus::placeholder{
 #contact-send-btn:hover{
 	background-color: transparent;
 	border: 1px solid #30bae7;
+}
+
+footer{
+	background-color: #3c5399;
+    color: #fff;
+    position: relative;
+    height: 10%;
+    bottom: 0;
+	width: 100%;
+	display: flex;
+    align-items: center;
 }
 
 #menu-social-footer-menu li.nav-item a{
