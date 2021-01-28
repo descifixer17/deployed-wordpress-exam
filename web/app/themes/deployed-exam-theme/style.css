@@ -1,0 +1,77 @@
+/*
+	Theme Name: Deployed Theme
+	Description: Custom theme made by rpafurong only for Deployed exam 
+	Author: rpafurong@gmail.com
+	Version: 1.0.0
+	Template: twentytwenty
+*/
+
+#ttr_header{
+	background-color: #864f9c;	
+}
+#header-nav ul li a{
+	color: #fff;
+	padding-right: .5rem;
+    padding-left: .5rem;
+}
+#welcome-section{
+	background-color: #864f9c;
+	color: #fff;
+	margin-bottom: 0px;
+}
+#work-with-us-btn{
+	width: 293px;
+	border-radius: 4px;
+	background-color: #eb7d4b;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);	
+}
+
+#get-in-touch-section{
+	background-color: #3c5399;
+	color: #fff;
+}
+
+#get-in-touch-section hr{
+	color: #273971;
+	border-width: medium;
+	width: 15%;
+	margin: 0 5%;
+}
+#get-in-touch-details{
+	font-size: 1.13rem;
+}
+
+input[name=contact-name],
+input[name=contact-email],
+textarea[name=contact-message]{
+	background-color: #273971;
+	border: none;
+}
+
+input[name=contact-name]::placeholder,
+input[name=contact-email]::placeholder,
+textarea[name=contact-message]::placeholder{
+	color: #fff;
+}
+
+input[name=contact-name]:focus::placeholder,
+input[name=contact-email]:focus::placeholder,
+textarea[name=contact-message]:focus::placeholder{
+	color: #495057;
+}
+
+#contact-send-btn{
+	background-color: #33ccff;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+	width: 25%;
+}
+
+#contact-send-btn:hover{
+	background-color: transparent;
+	border: 1px solid #30bae7;
+}
+
+#menu-social-footer-menu li.nav-item a{
+	display: block;
+    padding: .5rem 1rem;
+}
