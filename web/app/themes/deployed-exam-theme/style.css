@@ -25,13 +25,11 @@
 	background-color: #eb7d4b;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);	
 }
-
 #get-in-touch-section{
 	background-color: #3c5399;
 	color: #fff;
 	margin-bottom: 0;
 }
-
 #get-in-touch-section hr{
 	color: #273971;
 	border-width: medium;
@@ -40,37 +38,49 @@
 #get-in-touch-details{
 	font-size: 1.13rem;
 }
-
+#wpcf7-f25-o1 ul{
+	padding: 0;
+}
+#wpcf7-f25-o1-ve-contact-name, 
+#wpcf7-f25-o1-ve-contact-email,
+#wpcf7-f25-o1-ve-contact-message{
+	list-style-type: none;
+	color:red;
+}
+span.wpcf7-not-valid-tip,
+p[role=status],
+div.wpcf7-response-output{
+	color: red;
+}
+#wpcf7-f25-o1-ve-contact-message{
+	display: none;
+}
 input[name=contact-name],
 input[name=contact-email],
 textarea[name=contact-message]{
 	background-color: #273971;
 	border: none;
+	color: #fff;
 }
-
 input[name=contact-name]::placeholder,
 input[name=contact-email]::placeholder,
 textarea[name=contact-message]::placeholder{
 	color: #fff;
 }
-
 input[name=contact-name]:focus::placeholder,
 input[name=contact-email]:focus::placeholder,
 textarea[name=contact-message]:focus::placeholder{
 	color: #495057;
 }
-
 #contact-send-btn{
 	background-color: #33ccff;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
 	width: 25%;
 }
-
 #contact-send-btn:hover{
 	background-color: transparent;
 	border: 1px solid #30bae7;
 }
-
 footer{
 	background-color: #3c5399;
     color: #fff;
@@ -81,8 +91,8 @@ footer{
 	display: flex;
     align-items: center;
 }
-
 #menu-social-footer-menu li.nav-item a{
 	display: block;
-    padding: .5rem 1rem;
+	padding: .5rem 1rem;
+	color: #fff;
 }
